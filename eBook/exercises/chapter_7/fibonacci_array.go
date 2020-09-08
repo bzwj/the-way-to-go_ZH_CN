@@ -13,6 +13,6 @@ func main() {
 	}
 
 	for i := 0; i < 50; i++ {
-		fmt.Printf("The %d-th Fibonacci number is: %d\n", i, fibs[i])
+		fmt.Printf("The %d-th Fibonacci number is: %d\n", i+1, fibs[i])//maybe i+1? :D	
 	}
 }
